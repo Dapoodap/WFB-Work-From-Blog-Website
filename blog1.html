@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>~blog (vaksin) WFB~</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="blog1.css">
+        <script src="jquery.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header" >
+            <div class="logotek">
+                <img src="123.png" alt="">
+                <h1>WFB</h1>
+            </div>
+            <div class="navbar">
+                <ul class="nav_links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>  
+            </div> <!--div navbar-->
+        </div> <!--div header-->
+        <div class="container">
+            <div id="index" class="jumbotron">
+                <h1 class="display-4">BLOG</h1>
+                <p class="lead">Blog ini saya tuliskan tentang pendapat-pendapat dari prespektif pandangan saya mengenai isu-isu covid-19 yang tengah marak di berbagai platform</p>
+                <hr class="my-4">
+            </div>
+        </div>
+        <div class="tombol"><button id="btn1">TUTUP/BUKA</button></div>
+        <div class="contain">
+            <table id="atas">
+                <tr class="img1">
+                    <td><img src="suntik.jpg" alt="Vaksin COVID-19 yang sedang dilakukan di seluruh penjuru dunia" title="Vaksin COVID-19 yang sedang dilakukan di seluruh penjuru dunia"></td>
+                </tr>
+                <tr class="konten">
+                    <td>
+                        <h3>VAKSIN COVID-19 KONSPIRASI ?</h3>
+                        <br>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel sit amet consectetur adipisicing elit. Quidem vel ipsam expedita nihil ad optio iure, amet facilis ex beatae! Voluptatum tenetur dolor assumenda tempora hic amet? Dolores, soluta nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quae repellat suscipit sunt cum facilis qui nulla vero at sed dignissimos natus minus optio corporis, praesentium quidem neque atque ex. </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="saran">
+            <div class="kotak">
+                <h2>isikan saran atau tanggapan anda terkait hal diatas</h2>
+                <form action="form.php" method="POST" name="formku">
+                    <table>
+                        <tr>
+                            <td>NAMA ID</td>
+                            <td>:</td>
+                            <td><input type="text" name="namamu"></td>
+                        </tr>
+                        <tr>
+                            <td>ALAMAT EMAIL</td>
+                            <td>:</td>
+                            <td><input type="text" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td>SARAN ATAU TANGGAPAN</td>
+                            <td>:</td>
+                            <td><textarea rows="" cols="" name="saran"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Submit</td> 
+                        </tr>
+                        <tr>
+                            <td colspan="3"><button type="submit" value="submit" name="submit">submit</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><a href="#atas">kembali ke konten</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('#btn1').click(function(){
+                    $('#index').toggle()
+                })
+            })
+        </script>
+    </body>
+</html>

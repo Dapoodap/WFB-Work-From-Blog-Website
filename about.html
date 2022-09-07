@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>~about WFB~</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="about.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">     
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logotek">
+                <img src="123.png" alt="">
+                <h1>WFB</h1>
+            </div>
+            <div class="navbar">
+                <ul class="nav_links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>  
+            </div> <!--div navbar-->
+        </div> <!--div header-->
+        <div class="kotak">
+            <img src="aku.jpeg" alt="Gambar Saya" title="Gambar saya : Daffa Radhitya">
+            <p>Nama saya Daffa Radhitya Pratama Wina Putra. Saya mahasiswa udinus semester 3 angkatan 2020 yang mengambil progdi Teknik informatika.<br> Alasan saya membuat website ini adalah sebagai bahan bacaan untuk masyarakat luas di masa pandemi sekaligus bacaan disaat bosan dirumah saja. Selain itu diharapkan dapat menjadi sarana edukasi terhadap isu-isu covid-19 yang sedang trending di berbagai media.</p>
+            <br>
+            <button id="btn">contact</button>
+            <br>
+            <div id="grup" class="grup">
+                <ul class="nav">
+                    <li id="gb1"><a target="blank" href="https://www.instagram.com/daphedaq/"><img src="ig.png" alt="@daphedaq"></a></li>
+                    <li><a target="blank" href="https://twitter.com/chikinteriyaki"><img src="twt.png" alt="@chickinteriyaki"></a></li>
+                    <li><a target="blank" href="https://www.linkedin.com/in/daffa-radhitya-pratama-wina-putra-2002"><img src="linked.png" alt="Daffa Radhitya"></a></li>
+                </ul>    
+            </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('#btn').click(function(){
+                    $('#grup').show();
+                })
+            })
+        </script>
+    </body>
+</html>

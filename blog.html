@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>~blog WFB~</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="blog.css">
+        <script src="jquery.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">    
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="logotek">
+                <img src="123.png">
+                <h1>WFB</h1>
+            </div>
+            <div class="navbar">
+                <ul class="nav_links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>  
+            </div> <!--div navbar-->
+        </div> <!--div header-->
+        <div class="container">
+            <div id="index" class="jumbotron">
+                <h1 class="display-4">BLOG</h1>
+                <p class="lead">Blog ini saya tuliskan tentang pendapat-pendapat dari prespektif pandangan saya mengenai isu-isu covid-19 yang tengah marak di berbagai platform</p>
+                <hr class="my-4">
+            </div>
+        </div>
+        <div class="tombol"><button id="btn1">TUTUP/BUKA</button></div>
+        <div class="contain">
+            <table>
+                <tr class="img1">
+                    <td><img src="suntik.jpg" alt="Vaksinasi Covid-19" title="Vaksinasi Covid-19"></td>
+                </tr>
+                <tr class="konten">
+                    <td>
+                        <h3>VAKSIN COVID-19 KONSPIRASI ?</h3>
+                        <br>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem vel ipsam expedita nihil ad optio iure, amet facilis ex beatae! Voluptatum tenetur dolor assumenda tempora hic amet? Dolores, soluta nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quae repellat suscipit sunt cum facilis qui nulla vero at sed dignissimos natus minus optio corporis, praesentium quidem neque atque ex. <a href="blog1.html">lanjut membaca</a></p>
+                        <br>
+                        <hr>
+                    </td>
+                </tr>
+                <tr class="img1">
+                    <td><img src="ppkm.jpg" alt="Kerugian PPKM" title="Kerugian PPKM"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>DAMPAK PPKM MERUGIKAN RAKYAT</h3>
+                        <br>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ea quaerat blanditiis ipsam molestias, excepturi, nisi atque obcaecati illum ex quis sed. Totam eligendi autem quas explicabo architecto omnis? Iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nesciunt libero unde provident laboriosam incidunt ducimus exercitationem ipsum temporibus voluptate, dolorem cupiditate vel quo minima obcaecati quia fugiat! Id, non? <a href="blog2.html">lanjut membaca</a></p>
+                        <br>
+                        <hr>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script>
+            $(document).ready(function(){
+                
+                $('#btn1').click(function(){
+                    $('#index').toggle();
+                })
+            })
+        </script>
+    </body>
+</html>
